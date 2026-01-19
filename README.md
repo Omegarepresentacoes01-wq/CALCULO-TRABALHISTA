@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# LaborCalc - Sistema de Cálculos Trabalhistas
 
-This contains everything you need to run your app locally.
+Sistema profissional para escritórios de advocacia realizarem cálculos de verbas rescisórias, FGTS, horas extras e adicionais.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lYOVt7g3JC6NbH3QXEnJyNWEiIUkZQIE
+## 🚀 Como fazer Deploy (Vercel)
 
-## Run Locally
+Este projeto está configurado para ser implantado na **Vercel** em menos de 2 minutos:
 
-**Prerequisites:**  Node.js
+1.  **GitHub**:
+    *   Crie um novo repositório no seu GitHub.
+    *   Suba todos os arquivos deste projeto para lá.
+2.  **Vercel**:
+    *   Acesse [vercel.com](https://vercel.com) e faça login com seu GitHub.
+    *   Clique em **"Add New"** > **"Project"**.
+    *   Importe o repositório que você acabou de criar.
+    *   A Vercel detectará automaticamente as configurações do Vite.
+    *   Clique em **"Deploy"**.
 
+## 🛠️ Tecnologias
+*   React 19
+*   TypeScript
+*   Tailwind CSS
+*   Lucide React (Ícones)
+*   Vite (Bundler)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚖️ Funcionalidades
+*   Cálculos de rescisão (Saldo de salário, 13º, Férias)
+*   FGTS e Multa de 40%
+*   Horas Extras (50% e 100%) com DSR
+*   Adicional Noturno (com hora reduzida)
+*   Insalubridade e Periculosidade
+*   Multas Art. 467 e 477 da CLT
