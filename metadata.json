@@ -1,0 +1,5 @@
+{
+  "name": "LaborCalc - Sistema de Cálculos Trabalhistas",
+  "description": "Uma plataforma profissional para advogados trabalhistas calcularem verbas rescisórias, FGTS, horas extras, adicionais e multas com precisão jurídica.",
+  "requestFramePermissions": []
+}
